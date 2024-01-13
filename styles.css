@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*Colors - palette - https://flatuicolors.com/palette/ru*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+
+  background-color: #A782EC;
+  /*background-color: #2f363e;*/
+  color: #fafafa;
+  
+  /*border: 5px solid lightskyblue;*/
+
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#session_timer {
+  /*border: 3px dashed lightsalmon;*/
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: #710096;
+}
+
+button {
+  margin: 9px;
+  padding: 1px;
+  background-color: #F6F7A9;
+  border: 1px solid transparent;
+  color: #A782EC;
+  cursor: pointer;
+}
+
+i {
+  font-size: 32px;
+  background-color: #2f363e;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px -5px 35px rgba(0,0,0,0.25);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-adjustment-wrapper {
+  height: 140px;
+  width: 235px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  /*border: 1px solid red;*/
+  
+  background-color: #F6F7A9;
+  box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px 0px 15px rgba(0,0,0,0.75);
+  
+}
+
+.time-adjustment-wrapper h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #06114F;
+  /*border: 1px solid green;*/
+}
+
+.plus-minus-wrapper span {
+  padding: 0px;
+  font-size: 28px;
+  color: #710096;
+  /*border: 1px solid yellow;*/
+}
+
+.fa-minus,
+.fa-plus {
+  /*border: 1px solid #fafafa;*/
+  padding: 0px;
+  border-radius: 0px;
+  /*border: 1px solid blue;*/
+}
+
+.clock-wrapper {
+  display: inline-block;
+  margin-top: 0px;
+  padding: 15px;
+  text-align: center;
+  width: 480px;
+  /*border: 1px solid orange;*/
+ 
+  border-radius: 10px;
+  background-color: #F6F7A9;
+  box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+}
+
+.clock-wrapper h1 {
+  margin: 10px;
+  font-size: 36px;
+  color: #06114F;
+  /*border: 1px solid pink;*/
+}
+
+#time-left {
+  font-size: 96px;
+  color: #710096;
+  /*border: 5px solid purple;*/
+}
+
+#main {
+  /*border: 1px dashed white;*/
+  border-radius: 50px;
+  padding: 50px 50px 10px 50px;
+  background-color: #710096;
+  box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+}
